@@ -1,7 +1,30 @@
-h1 {
-    color: red
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2 {
     color: green
+}
+
+.cabecalho {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape {
+    background-color: darksalmon;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#a123 {
+    color: red
+}
+
+.grade {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
